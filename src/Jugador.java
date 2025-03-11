@@ -10,7 +10,7 @@ class Jugador implements Runnable {
     private static int totalPerdidos = 0;
 
     public Jugador(String nombre) {
-        this.nombre = nombre;
+        this.nombre = nombre ;
     }
 
     @Override
