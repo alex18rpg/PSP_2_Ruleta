@@ -18,7 +18,7 @@ class Jugador implements Runnable {
         // número aleatorio entre 0 y 50
         Random random = new Random();
         apuesta = random.nextInt(51);
-        System.out.println(nombre + " ha apostado al número: " + apuesta);
+        System.out.println(nombre + " Apuesta al número: " + apuesta);
         totalApuestas++;
 
         try {
